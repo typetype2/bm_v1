@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.marquee_container {
+	margin: 10px;
+	overflow: hidden;
+	width: 569px;
+	height:315px;
+	position: relative;
+	top: 0px;
+	left:0px;
+}
+.marquee_nav_text {
+	float: left;
+	width: 355px;
+	overflow: hidden;
+}
+.marquee_photos {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.marquee_caption {
+	color: #ececec;
+	background: #2f2f30 0px 0px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	width: 355px;
+	position: absolute;
+	left: 569px;
+	top: 0px;
+}
+.marquee_caption_content {
+	width: 295px;
+	margin-left: 30px;
+}
+.marquee_caption h2 {
+	font-family: "Lato Regular", Helvetica, sans-serif;
+	font-size: 12.5px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #534258;
+	margin: 30px 0px 24px;
+}
+.marquee_caption h3 {
+	font-family: "Lato Regular", Helvetica, sans-serif;
+	font-size: 12.5px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #ececec;
+	margin: 0px 0px 24px;
+}
+.marquee_caption_content p {
+	color: #ececec;
+	margin: 0px 0px 54px;
+	font-family: "Lato Regular", Helvetica, sans-serif;
+	line-height: 16pt;
+	font-size: 12.5px;
+	font-weight: 300;
+}
+.marquee_caption_content a {
+	color: #8bc9b3;
+	text-decoration: none;
+}
+.marquee_caption_content a:hover {
+	color: #0a9492;
+}
+.marquee_nav {
+	text-align: right;
+	position: absolute;
+	top: 267px;
+	left: 714px;
+	width: 180px;
+}
+.marquee_nav a {
+	background: url(../_images/home/bannerNav.png) no-repeat 0px 0px;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.marquee_nav a:hover {
+	background: url(../_images/home/bannerNav.png) no-repeat -24px 0px;
+}
+.marquee_nav a.selected {
+	background: url(../_images/home/bannerNav.png) no-repeat -48px 0px;
+}
+.marquee_panels {
+	display: none;
+}
+
